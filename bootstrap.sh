@@ -30,6 +30,3 @@ conda install -c conda-forge -q -y keras
 
 # Simlink host mounted directory to where vargant Jupyter boots up 
 ln -s /vagrant/ /home/vagrant/host
-
-echo "Stating Jupyter Notebook ... "
-jupyter notebook --no-browser --ip=0.0.0.0 --notebook-dir=host/
